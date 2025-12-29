@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "jagan",
+    "email": "jagan.mamanduru@gmail.com",
+    "age": 10,
+    "hobbies": [
+      "coding",
+      "coding"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "jagan",
+    "email": "jagan.mamanduru@gmail.com",
+    "age": 34,
+    "hobbies": [
+      "coding"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "jagan",
+    "email": "jagan.mamanduru@gmail.com",
+    "age": 30,
+    "hobbies": []
+  },
+  {
+    "id": 4,
+    "name": "jagan",
+    "email": "jagan.mamanduru@gmail.com",
+    "age": 23,
+    "hobbies": [
+      "coding"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "gg",
+    "email": "jagan.mamanduru@gmail.com",
+    "age": 44,
+    "hobbies": [
+      "coding",
+      "ok",
+      "ui"
+    ]
+  }
+]

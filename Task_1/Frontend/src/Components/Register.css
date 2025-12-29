@@ -1,0 +1,116 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page center */
+body {
+  background-color: #f4f6f8;
+}
+
+/* Form container */
+.register-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Labels */
+.register-container label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Inputs */
+.register-container input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.register-container input:focus {
+  border-color: #007bff;
+}
+
+/* Hobby section */
+.hobby-box {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add hobby button */
+.add-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+/* Register button */
+.submit-btn {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Hobby list */
+ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Edit & delete buttons */
+.edit-btn {
+  background-color: #ffc107;
+  margin-left: 8px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  margin-left: 5px;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
