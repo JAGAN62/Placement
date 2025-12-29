@@ -16,11 +16,14 @@ const Profile = () => {
       </button>
 
       {isProfile && (
-        <div className="image-box">
+        <div className="image-box" style={{display:'flex',flexDirection:'column',justifyContent:'center',alignContent:'center',alignItems:'center'}}>
           <img
             src="/Profile.jpeg"
             alt="profile"
           />
+          <b>Email:</b><p>jagan.mamanduru@gmail.com</p>
+          <p><b>Age:</b>23</p>
+          <p></p>
         </div>
       )}
     </div>
