@@ -50,7 +50,7 @@ const Register = () => {
 
   useEffect(()=>{
     nameRef.current.focus()
-  })
+  },[])
   return (
     <>
        <div className="register-container">
@@ -71,7 +71,7 @@ const Register = () => {
                       <ol>
                         {hobbies.map((h, i) => (
                           <li key={i}>{h}
-                          <button type="button" className="delete-btn" onClick={() => handleDelete(i)}>Delete</button>
+                          <button type="button" className="delete-btn" onClick={() => handleDelete(i)}>Remove</button>
                           </li>
                         ))}
                     </ol>

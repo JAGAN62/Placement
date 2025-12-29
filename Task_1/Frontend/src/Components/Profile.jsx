@@ -21,9 +21,9 @@ const Profile = () => {
             src="/Profile.jpeg"
             alt="profile"
           />
-          <b>Email:</b><p>jagan.mamanduru@gmail.com</p>
-          <p><b>Age:</b>23</p>
-          <p></p>
+          <p><b>Name: </b>M.Jagan</p>
+          <b>Email: </b><p>jagan.mamanduru@gmail.com</p>
+          <p><b>Age: </b>23</p>
         </div>
       )}
     </div>
